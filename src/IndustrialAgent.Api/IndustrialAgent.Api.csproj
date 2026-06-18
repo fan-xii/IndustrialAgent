@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <NoWarn>$(NoWarn);SKEXP0001;SKEXP0010</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="Microsoft.SemanticKernel" Version="1.21.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IndustrialAgent.Core\IndustrialAgent.Core.csproj" />
+    <ProjectReference Include="..\IndustrialAgent.Scaffolding\IndustrialAgent.Scaffolding.csproj" />
+    <ProjectReference Include="..\IndustrialAgent.Indexing\IndustrialAgent.Indexing.csproj" />
+    <ProjectReference Include="..\IndustrialAgent.Shared\IndustrialAgent.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

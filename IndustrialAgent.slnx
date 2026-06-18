@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/IndustrialAgent.Api/IndustrialAgent.Api.csproj" />
+    <Project Path="src/IndustrialAgent.Core/IndustrialAgent.Core.csproj" />
+    <Project Path="src/IndustrialAgent.Indexing/IndustrialAgent.Indexing.csproj" />
+    <Project Path="src/IndustrialAgent.Scaffolding/IndustrialAgent.Scaffolding.csproj" />
+    <Project Path="src/IndustrialAgent.Shared/IndustrialAgent.Shared.csproj" />
+  </Folder>
+</Solution>

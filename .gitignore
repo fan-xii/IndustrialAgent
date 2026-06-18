@@ -1,0 +1,52 @@
+# .NET 构建产物
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# 构建结果
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+[Aa]rtifacts/
+
+# 前端
+web/node_modules/
+web/dist/
+web/.vite/
+web/*.local
+
+# 日志
+*.log
+logs/
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 敏感配置（包含 API Key 的本地配置）
+appsettings.Development.json
+appsettings.Local.json
+*.secrets.json
+
+# Trae 文档（计划文件）
+.trae/documents/
